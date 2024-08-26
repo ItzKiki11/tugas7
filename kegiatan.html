@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Belajar Bootstrap</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+            <nav class="navbar bg-dark">
+                <div class="container">
+                  <a class="navbar-brand text-white" href="#">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/archive/1/12/20111003025458%21Flag_of_Poland.svg" alt="Bootstrap" width="60" height="30">
+                    Menjelajah
+                  </a>
+                </div>
+            </nav>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="kegiatan.html">Kegiatan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="galeri.html">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="kontak.html">Kontak</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="about.html">Tentang Kami</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <nav aria-label="breadcrumb" class="mt-4">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Beranda</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Kegiatan</li>
+          </ol>
+        </nav>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Banyak Kegiatan Asik yang bisa kamu coba</h2>
+        <div class="row"></div>
+    </div>
+        
+    <div class="container my-5">
+      <div class="row">
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Calle_Dlugie_Pobrzeze%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_06.jpg/1200px-Calle_Dlugie_Pobrzeze%2C_Gdansk%2C_Polonia%2C_2013-05-20%2C_DD_06.jpg" class="card-img-top" width="200px" height="225">
+                  <div class="card-body">
+                      <h5 class="card-title">Kota Bersejarah</h5>
+                      <p class="card-text">jelajahi kota-kota yang indah dan Bersejarah</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pantaiModal">
+                          Lihat Detail
+                      </button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="https://www.responsibletravel.com/imagesclient/activism-bialowieza1.jpg" class="card-img-top" width="200px" height="225">
+                  <div class="card-body">
+                      <h5 class="card-title">Wisata Alam</h5>
+                      <p class="card-text">Wisata alam yang membuat anda tenang</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#campingModal">
+                          Lihat Detail
+                      </button>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 mb-4">
+              <div class="card">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-tBpLU_Bt_QhUnkqFdT4wZYbPrI792x9htw&s" class="card-img-top" width="200px" height="225">
+                  <div class="card-body">
+                      <h5 class="card-title">Festival</h5>
+                      <p class="card-text">Ikuti berbagai festival seru dan menarik</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#trekkingModal">
+                          Lihat Detail
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="pantaiModal" tabindex="-1" aria-labelledby="pantaiModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="pantaiModalLabel">Kota Sejarah</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <div id="carouselPantai" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://image-tc.galaxy.tf/wijpeg-2cxmnubkaupsywl3tbala16em/adobestock-203668184_standard.jpg?crop=90%2C0%2C1420%2C1065" class="d-block w-100" width="100px" height="300px">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Warsawa</h5>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://cdn.britannica.com/01/177901-050-91C0135B/Cloth-Hall-square-Poland-Krakow.jpg" class="d-block w-100" width="100px" height="300px">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Krakow</h5>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://images.squarespace-cdn.com/content/v1/536436aae4b05b7433d270a5/1628198565209-POV2UNREFYMQZB2KTC3M/Gdansk+Poland" class="d-block w-100" width="100px" height="300px">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Gdansk</h5>
+                              </div>
+                          </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPantai" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselPantai" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="campingModal" tabindex="-1" aria-labelledby="campingModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="campingModalLabel">Wisata Alam</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <div id="carouselCamping" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://3seaseurope.com/wp-content/uploads/2023/04/mazury.webp" class="d-block w-100" width="100px" height="300px">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Danau Masuria</h5>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <img src="https://mediaim.expedia.com/destination/2/bd9a78c2e747e0d7f78a439a33b00aaf.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh" class="d-block w-100" width="100px" height="300px">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Taman Nasional Tatra</h5>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU2oGxRg9-Mf4nUHrvDYOF9hlmxc2_ttezVw&s" class="d-block w-100" width="100px" height="300px">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Hutan Białowieża</h5>
+                              </div>
+                          </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselCamping" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselCamping" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="trekkingModal" tabindex="-1" aria-labelledby="trekkingModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="trekkingModalLabel">Festival</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <div id="carouselTrekking" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img src="https://www.chido-fajny.com/wp-content/uploads/2019/10/pierogi-new-min.jpg" class="d-block w-100" width="100px" height="300px">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Festival Pierogi</h5>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <img src="https://id-static.rti.org.tw/assets/thumbnails/2023/11/10/f895f77168d03ad7c19e2eb29267cc22.jpg" class="d-block w-100" width="100px" height="300px">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Festival Musik Chopin</h5>
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <img src="https://as2.ftcdn.net/v2/jpg/02/11/53/43/1000_F_211534301_LOvjkGafBR4AXC3qOrNkX4cbgEgXY8uj.jpg" class="d-block w-100" width="100px" height="300px">
+                              <div class="carousel-caption d-none d-md-block">
+                                  <h5>Wianki Festival</h5>
+                              </div>
+                          </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselTrekking" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselTrekking" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <footer class="bg-light text-center text-lg-start mt-5" style="width: 100%; position: absolute; left: 0; margin-bottom: 0;">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Rekreasi Seru</h5>
+                    <p>Dapatkan liburan seru bareng keluarga atau teman di Polandia</p>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-end">
+                    <h5 class="text-uppercase">Hubungi Kami</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#!" class="text-dark">Email: menjelajah@ayo.com</a></li>
+                        <li><a href="#!" class="text-dark">Telepon: +62 888 9595 0078</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 bg-dark text-white">
+            © 2024 Kiki. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

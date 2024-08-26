@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Belajar Bootstrap</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+            <nav class="navbar bg-dark">
+                <div class="container">
+                  <a class="navbar-brand text-white" href="#">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/archive/1/12/20111003025458%21Flag_of_Poland.svg" alt="Bootstrap" width="60" height="30">
+                    Menjelajah
+                  </a>
+                </div>
+            </nav>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="kegiatan.html">Kegiatan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="galeri.html">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="kontak.html">Kontak</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="about.html">Tentang Kami</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <nav aria-label="breadcrumb" class="mt-4">
+        <div class="container">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Beranda</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Kami</li>
+          </ol>
+        </nav>
+    </div>
+
+      <div class="container my-5">
+        <h2 class="text-center mb-4">Sejarah Perusahaan Kami</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+               <img src="data:image/png;base64,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" class="img-fluid rounded" alt="Tentang Kami">
+            </div>
+            <div class="col-md-6">
+                <p>Perusahaan ini didirikan pada tahun 2045. Kami adalah perusahaan yang bergerak di bidang pariwisata dan rekreasi, menyediakan berbagai paket liburan yang menarik dan menyenangkan. Tujuan kami adalah memberikan pengalaman liburan yang tak terlupakan untuk keluarga, teman, dan rekan kerja. Dengan layanan profesional dan destinasi yang beragam, kami siap membuat momen liburan Anda menjadi istimewa.</p>
+            </div>
+        </div>
+      </div>
+      
+      <div class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p>Pembuat ini Seorang Programmer bernama Kiki Hadiansah, Bersekolah di SMKN 1 Cisarua berjurusan RPL/PPLG. Saya membuat ini untuk memberikan rekomendasi wisata tentang Polandia dimana kamu bisa melihat rekomendasi rekomendasi menarik seputar Polandia, seperti Kota bersejarah, tempat alam menenangkan, dan festival menarik yang dapat dilihat/diikuti.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="kiki.png" class="img-fluid rounded" alt="Tentang Kami">
+            </div>
+            <div class="col-md-12 mt-4">
+            </div>
+        </div>
+    </div>
+
+      <footer class="bg-light text-center text-lg-start mt-5" style="width: 100%; position: absolute; left: 0; margin-bottom: 0;">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Rekreasi Seru</h5>
+                    <p>Dapatkan liburan seru bareng keluarga atau teman di Polandia</p>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-end">
+                    <h5 class="text-uppercase">Hubungi Kami</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#!" class="text-dark">Email: menjelajah@ayo.com</a></li>
+                        <li><a href="#!" class="text-dark">Telepon: +62 888 9595 0078</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 bg-dark text-white">
+            © 2024 Kiki. All Rights Reserved.
+        </div>
+    </footer>
+</body>
